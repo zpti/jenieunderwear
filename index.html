@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JENIE</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- FontAwesome(폰트 아이콘) -->
+  <script src="https://kit.fontawesome.com/42bc809b80.js" crossorigin="anonymous"></script>
+  <!-- bx slider CSS -->
+  <link rel="stylesheet" href="js/bxslider/jquery.bxslider.min.css">
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- bx slider JS -->
+  <script src="js/bxslider/jquery.bxslider.min.js"></script>
+  <!-- 상품데이터 -->
+  <script src="js/data.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="js/main.js"></script>
+</head>
+<body>
+    <header id="main_header">
+        <div class="container">
+            <h1>
+                <a href="./index.html">
+                    <img src="images/jenie_logo.png" width="230px" alt="jenie_logo">
+                </a>
+            </h1>
+            <form id="search_box">
+                <input type="text"
+                placeholder="NEW! 크리스마스 신상 출시">
+                <button type="submit">
+                <i class="fas fa-search"></i>
+                </button>
+            </form>
+
+            <nav id="utill_menu">
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-truck"></i></a>
+                <a href="#"><i class="fas fa-heart"></i></a>
+            </nav>
+        </div>
+    </header>
+    
+
+    <nav id="main_gnb">
+        <div class="container">
+            <button id="category_btn"><i class="fas fa-bars"></i>
+                <span>카테고리</span></button>
+            <ul>
+                <li><a href="#">NEW</a></li>
+                <li><a href="#">BEST</a></li>
+                <li><a href="#">BRA</a></li>
+                <li><a href="#">PANTY</a></li>
+                <li><a href="#">SHAPING</a></li>
+                <li><a href="#">FITNESS</a></li>
+                <li><a href="#">MAN</a></li>
+                <li><a href="#">COUPLE</a></li>
+                <li><a href="#">HOMEWEAR</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 카테고리 메뉴 목록 -->
+  <nav id="category">
+    <div class="container"><!-- end container -->
+      <dl>
+        <dt>woman</dt>
+        <dd>bra</dd>
+        <dd>panty</dd>
+        <dd>acc</dd>
+        <dd>slip</dd>
+      </dl>
+      <dl>
+        <dt>man</dt>
+        <dd>panty</dd>
+        <dd>underlayer</dd>
+        <dd>running</dd>
+      </dl>
+    </div><!-- end container -->
+  </nav>
+
+  <!-- 메인 배너 -->
+  <section id="main_banner">
+    <div class="inner">
+      <div class="bx-slider">
+        <img class="img_responsive" src="images/banner_pc_01.jpg" alt="1" title="여기에 배너 설명글을 작성">
+        <img class="img_responsive" src="images/banner_pc_02.jpg" alt="2">
+        <img class="img_responsive" src="images/banner_pc_03.jpg" alt="3">
+      </div>
+    </div><!-- end inner -->
+  </section>
+
+    <!-- 브랜드 추천 -->
+  <section id="brand">
+    <div class="container"><!-- end container -->
+      <h2>BEST BRAND</h2>
+      <ul class="brand-slider">
+        <li data-num="1">
+          <!-- 이미지는 배경으로 처리 -->
+          <a href="#">
+            <i class="far fa-heart"></i>
+            <ul class="hash_tag">
+              <li>#크리스마스</li>
+              <li>#보정속옷</li>
+              <li>#예쁜속옷</li>
+            </ul>
+            <ul class="text">
+              <li class="subject">EVENT</li>
+              <li><h4>크리스마스 란제리 세트</h4></li>
+              <li class="day">2019.12.01 ~ 2019.12.25</li>
+            </ul>
+          </a>
+        </li>
+        <li data-num="2">
+          <!-- 이미지는 배경으로 처리 -->
+          <a href="#">
+            <i class="far fa-heart"></i>
+            <ul class="hash_tag">
+              <li>#2020</li>
+              <li>#신상</li>
+              <li>#2019</li>
+              <li>#이벤트</li>
+            </ul>
+            <ul class="text">
+              <li class="subject">EVENT</li>
+              <li><h4>지니 연말 신상 할인</h4></li>
+              <li class="day">2019.11.18 ~ 2019.12.31</li>
+            </ul>
+          </a>
+        </li>
+        <li data-num="3">
+          <!-- 이미지는 배경으로 처리 -->
+          <a href="#">
+            <i class="far fa-heart"></i>
+            <ul class="hash_tag">
+              <li>#커플</li>
+              <li>#여자친구</li>
+              <li>#남자친구</li>
+              <li>#럭셔리</li>
+            </ul>
+            <ul class="text">
+              <li class="subject">EVENT</li>
+              <li><h4>커플세트 구매시 사은품 증정</h4></li>
+              <li class="day">2019.11.11 ~ 2019.12.12</li>
+            </ul>
+          </a>
+        </li>
+        <li data-num="4">
+          <!-- 이미지는 배경으로 처리 -->
+          <a href="#">
+            <i class="far fa-heart"></i>
+            <ul class="hash_tag">
+              <li>#빅토리아시크릿</li>
+              <li>#속옷</li>
+            </ul>
+            <ul class="text">
+              <li class="subject">EVENT</li>
+              <li><h4>빅토리아시크릿 & 지니 콜라보</h4></li>
+              <li class="day">2019.08.11 ~ </li>
+            </ul>
+          </a>
+        </li>
+      </ul>
+    </div><!-- end container -->
+  </section>
+
+  <section id="new_product">
+    <div class="container">
+      <h2>NEW</h2>
+      <!-- <div class="category_menu">
+        <a href="#" class="all">ALL</a>
+        <a href="#" class="woman">WOMAN</a>
+        <a href="#" class="man">MAN</a>
+      </div> -->
+      <ul class="item_list">
+        <!-- 여기에 자바스크립트로 상품목록 추가됨 -->
+      </ul>
+    </div><!-- end container-->
+  </section>
+
+  <!-- 메인 콘텐츠 -->
+  <section id="top_seller">
+    <div class="container">
+      <h2>BEST</h2>
+      <div class="category_menu">
+        <a href="#" class="all">ALL</a>
+        <a href="#" class="woman">WOMAN</a>
+        <a href="#" class="man">MAN</a>
+      </div>
+      <ul class="item_list">
+        <!-- 여기에 자바스크립트로 상품목록 추가됨 -->
+        <!-- 225 x 323 -->
+        <!-- <li>
+          <a href="#">
+            <img src="http://placehold.it/225x323" alt="노카라 트위드 자켓">
+            <span class="title">EGOIST</span>
+            <span class="name">라글란 루즈핏 반핸드메이드 코트 PK4HC087</span>
+            <del class="origin_price">368,000원</del>
+            <ins class="sale_price"><strong>214,800원</strong></ins>
+          </a>
+        </li> -->
+      </ul>
+    </div><!-- end container-->
+  </section>
+    
+
+
+  <div id="ftWrap">
+    <div id="footer">
+		<div class="footer_top">
+			<div class="footer_link">
+				<div class="ft_left">
+					<ul>
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보취급방침</a></li>
+						<li><a href="#">이용안내</a></li>
+						<li><a href="#">제휴문의</a></li>
+					</ul>
+				</div>
+				<div class="ft_right">
+					<div>
+												<span><img src="images/volume_low.png"><b>JENIE</b></a></span>
+											</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_middle">
+			<div class="ft_step_01">
+				<dl>
+					<dt><a href="#"><img src="images/jenie_logo.png" width="230px" alt="jenie_logo"></a></dt>
+					<dd>
+						<p>회사명 : (주)지니컴퍼니 / 대표자 : 지니 / 개인정보관리 책임자 : 지니</p>
+						<p>주소 : 서울특별시 송파구 송파대로 201 송파테라타워2 B동 707호</p>
+						<p>고객만족센터 : 02-1599-0410</p>
+						<p>사업자등록번호 : 740-81-01028 <a href="#" target="_blank">[사업자정보확인]</a></p>
+						<p>통신판매업 신고번호 : 제 2017-서울송파-1302호</p>
+                                                <p>제휴문의: info@jenie.co.kr / FAX : 070-4324-8429 </p>
+                                                <p> Hosting by Makeshop</p>
+					</dd>
+				</dl>
+			</div>
+			<div class="ft_step_02">
+				<dl>
+					<dt><img src="images/bank_icon.png" alt=""> 입금계좌정보</dt>
+					<dd>
+						<p><span>예금주명 : (주)지니컴퍼니</span> <img src="images/kb_bank_icon.png" alt=""> 국민은행 867901-00-053749</p>
+						<p><a href="#" target="_blank">인터넷뱅킹 바로가기 <img src="/design/skyskysky/mk/image/arrow_icon.png" alt=""></a></p>						
+					</dd>
+				</dl>
+				<dl>
+					<dt><img src="images/refresh_icon.png" alt=""> 교환/반품주소</dt>
+					<dd>
+						<p>경기도 평택시 서탄면 수월암4길 160</p>
+						<p>화성 CJ대한통운 A터미널</p>
+                        <p>(주)지니컴퍼니 사업부</p>						
+					</dd>
+				</dl>
+			</div>
+			<div class="ft_step_03">
+				<dl>
+					<dt><img src="images/info_icon.png" alt=""> 고객센터 이용안내</dt>
+					<dd>
+						<p class="tel">02-1599-0410</p>
+						<p>mon-fri am 10:00 - pm 05:00</p>	
+						<p>lunch pm 1:00 - pm 02:00</p>	
+						<p>sat.sun holiday off</p>	
+						<p class="link"><span class="btn_bk"><a href="#">1:1<br>문의</a></span>
+                        <span class="btn_wh"><a href="#">faq</a></span></p>
+					</dd>
+				</dl>
+				<dl>
+					<dt><img src="images/info_icon.png" alt=""> 제휴문의</dt>
+					<dd>
+						<p class="tel">070 5488 4789</p>
+						<p>mon-fri am 09:00 - pm 05:00</p>	
+						<p>lunch pm 01:00 - pm 02:00</p>	
+						<p>sat.sun holiday off</p>	
+						<p class="link"><span class="btn_bk"><a href="#">1:1<br>메일</a></span></p>
+                                            
+
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="ft_copy">
+				<li>Copyright (c) by 지니 All Right Reserved</li>
+				<li>본 사이트내 모든 이미지 및 컨텐츠 등은 저작권법 제4조의 의한 저작물로써 소유권은 지니 에게 있으며, 무단 도용시 법적인 제재를 받을 수 있습니다.</li>
+                <br>
+                <br>
+			</div>
+		</div>
+   
+    </div><!-- #footer -->
+</div>
+</body>
+</html>

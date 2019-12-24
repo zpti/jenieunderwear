@@ -1,0 +1,95 @@
+// data.js
+
+/** 제품 정보 데이터(JSON) */
+var product_data = [
+  {
+    // 속성: 값
+    img_url: "images/item_01.jpg",
+    title: "클레어 set",
+    name: "클레어 set",
+    origin_price: "",
+    sale_price: "22,300",
+    category: "woman",
+  },
+  {
+    img_url: "images/item_02.jpg",
+    title: "로망드 더블후크 set",
+    name: "로망드 더블후크 set",
+    origin_price: "",
+    sale_price: "18,800",
+    category: "woman",
+  },
+  {
+    img_url: "images/item_03.jpg",
+    title: "미라쥬 올인원 슬립",
+    name: "미라쥬 올인원 슬립",
+    origin_price: "25,000",
+    sale_price: "23,700",
+    category: "woman",
+  },
+  {
+    img_url: "images/item_04.jpg",
+    title: "셔링셔링 이벤트웨어 (2P)",
+    name: "셔링셔링 이벤트웨어 (2P)",
+    origin_price: "",
+    sale_price: "26,800",
+    category: "woman",
+  },
+  {
+    img_url: "images/item_05.jpg",
+    title: "리얼호피 남성드로즈",
+    name: "리얼호피 남성드로즈",
+    origin_price: "",
+    sale_price: "18,000",
+    category: "man",
+  },
+  {
+    img_url: "images/item_06.jpg",
+    title: "스마트 분리형 쿨링 드로즈 (그레이)",
+    name: "스마트 분리형 쿨링 드로즈 (그레이)",
+    origin_price: "29,000",
+    sale_price: "19,900",
+    category: "man",
+  },
+  {
+    img_url: "images/item_07.jpg",
+    title: "스마트 분리형 쿨링 드로즈 (네이비)",
+    name: "스마트 분리형 쿨링 드로즈 (네이비)",
+    origin_price: "29,000",
+    sale_price: "19,900",
+    category: "man",
+  },
+  {
+    img_url: "images/item_08.jpg",
+    title: "DRAWERS EXCEL READY RED",
+    name: "DRAWERS EXCEL READY RED",
+    origin_price: "",
+    sale_price: "22,900",
+    category: "monster",
+  },
+  {
+    img_url: "images/item_09.jpg",
+    title: "SLIM FIT-TRUNK CHARCOAL",
+    name: "SLIM FIT-TRUNK CHARCOAL",
+    origin_price: "",
+    sale_price: "19,800",
+    category: "man",
+  },  
+  {
+    img_url: "images/item_10.jpg",
+    title: "시드니 브라렛 bra",
+    name: "시드니 브라렛 bra",
+    origin_price: "",
+    sale_price: "24,000",
+    category: "woman",
+  },  
+  {
+    img_url: "images/item_11.jpg",
+    title: "BOXER BRIEFS-LOW RISE STROKE RED",
+    name: "BOXER BRIEFS-LOW RISE STROKE RED",
+    origin_price: "25,000",
+    sale_price: "21,900",
+    category: "man",
+  },  
+];
+
